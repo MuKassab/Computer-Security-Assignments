@@ -191,7 +191,7 @@ def main():
     elif args[1] not in ["shift", "affine", "vigenere"]:
         print("Cypher name is not valid!")
         return
-    elif args[2] not in ["enc", "dec"]:
+    elif args[2] not in ['encrypt', 'decrypt']:
         print("Please specify operation type enc/ dec")
         return
     try:  # Check if input file exists
@@ -223,7 +223,7 @@ def main():
         except ValueError:
             print("Check the key is a single integer!")
             return
-        if args[2] == 'enc':
+        if args[2] == 'encrypt':
             shiftCipher.encrypt(inFile, outFile, args[5])
         else:
             shiftCipher.decrypt(inFile, outFile, args[5])
@@ -238,7 +238,7 @@ def main():
         except ValueError:
             print("a, b must be integers!")
             return
-        if args[2] == 'enc':
+        if args[2] == 'encrypt':
             affineCipher.encrypt(inFile, outFile, args[5], args[6])
         else:
             affineCipher.decrypt(inFile, outFile, args[5], args[6])
@@ -250,7 +250,7 @@ def main():
         if args[5].isalpha() is False:
             print("The key must be all english characters only")
             return
-        if args[2] == 'enc':
+        if args[2] == 'encrypt':
             vigenereCipher.encrypt(inFile, outFile, args[5])
         else:
             vigenereCipher.decrypt(inFile, outFile, args[5])
