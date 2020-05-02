@@ -3,7 +3,7 @@
 The Assignment is to solve this problem [GenFei](https://cybertalents.com/challenges/cryptography/genfei) on [CyberTalents](https://cybertalents.com/).<br>
 The task is to decrypt the file flag.enc given the encryption algorithm contained in encrypt.py. The solution is contained in decrypt.py. <br>
 Below is the submission proof in my profile [MuKassab](https://cybertalents.com/members/MuKassab/profile)
-![Submission Proof](Assignment%202/imgs/submission.PNG)
+![Submission Proof](imgs/submission.PNG)
 
 ## Thought Process
 First of all we note that we don't need to change anything in the F(w) function as it should be the same in both enc/dec. <br>
