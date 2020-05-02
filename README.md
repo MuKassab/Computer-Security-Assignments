@@ -8,3 +8,7 @@ Computer Security course assignments for the 2nd Term of the year 2020.
   - [X] Done. <br>
   Implementation of Shift a.k.a. Ceasar, Affine and Vignere Encryption/Decryption Algorithms. <br>
   All algorithms are contained in a single Python file which is easily callable from the CMD. <br>
+  
+  ### 2nd Assign. (Deadline on 2nd May): <br>
+  - [X] Done. <br>
+  Provide the decryption text to this problem [GenFei](https://cybertalents.com/challenges/cryptography/genfei) on [CyberTalents](https://cybertalents.com/).<br>
